@@ -104,6 +104,8 @@ const Home = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </Link>
+             <a href="https://www.producthunt.com/products/tailwindgpt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-tailwindgpt" target="_blank">
+           <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=993304&theme=dark&t=1752590795956" alt="TailwindGPT - &#0032;Your&#0032;AI&#0032;Dev&#0032;Buddy&#0032;for&#0032;Tailwind&#0032;CSS | Product Hunt"  style={{ width: '250px', height: '54px' }}width="250" height="54" />
           </motion.div>
         </motion.div>
       </motion.section>
