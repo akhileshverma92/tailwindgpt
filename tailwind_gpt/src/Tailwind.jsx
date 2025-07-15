@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Link } from 'react-router-dom'; // For routing
 
-const GEMINI_API_KEY = 'AIzaSyD-vXCEpyeHgEcrqlkbmhdNZAabG33KyrY'; // For local dev only. Do NOT expose in prod.
+const GEMINI_API_KEY =  import.meta.env.GEMINI_API_KEY; // For local dev only. Do NOT expose in prod.
 
 const Tailwind = () => {
   const [prompt, setPrompt] = useState('');
